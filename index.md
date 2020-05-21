@@ -1,3 +1,9 @@
+
+http://kumeS.github.io/DataScience
+
+http://kumeS.github.io/DataScience/Wikidat_visNet01_5階層_タンパク質抜き.html
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kumeS/DataScience/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
