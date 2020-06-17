@@ -12,6 +12,7 @@ http://kumeS.github.io/DataScience/Gompertz_growth_model.html
 
 http://kumeS.github.io/DataScience/UNET_modified_model.html
 
+
 http://kumeS.github.io/DataScience/SimpleAutoencoder/Autoencoder1/Autoencoder1.html
 http://kumeS.github.io/DataScience/SimpleAutoencoder/Autoencoder1/Autoencoder1_result.html
 
