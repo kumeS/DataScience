@@ -23,3 +23,5 @@ http://kumeS.github.io/DataScience/SimpleAutoencoder/Autoencoder3/Autoencoder3.h
 http://kumeS.github.io/DataScience/SimpleAutoencoder/Autoencoder3/Autoencoder3_result.html
 
 http://kumeS.github.io/DataScience/ConvolutionalAutoencoder/1_model.html
+http://kumeS.github.io/DataScience/ConvolutionalAutoencoder/2_Autoencoder.html
+http://kumeS.github.io/DataScience/ConvolutionalAutoencoder/7_DenoiseRes.html
