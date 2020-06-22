@@ -10,6 +10,7 @@ http://kumeS.github.io/DataScience/UNET_modified_model.html
 
 
 http://kumeS.github.io/DataScience/SimpleAutoencoder/Autoencoder1/Autoencoder1.html
+http://kumeS.github.io/DataScience/SimpleAutoencoder/Autoencoder1/Autoencoder1.png
 http://kumeS.github.io/DataScience/SimpleAutoencoder/Autoencoder1/Autoencoder1_result.html
 http://kumeS.github.io/DataScience/SimpleAutoencoder/Autoencoder2/Autoencoder2.html
 http://kumeS.github.io/DataScience/SimpleAutoencoder/Autoencoder2/Autoencoder2_result.html
