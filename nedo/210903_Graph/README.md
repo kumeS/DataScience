@@ -24,5 +24,17 @@
 
 - [ネットワーク図](http://kumeS.github.io/DataScience/nedo/210903_Graph/04_相転移_agVisNetwork_process_210903-171437.html)
 
+### 材料特性.wd:Q3523867
+
+- [ツリー図](http://kumeS.github.io/DataScience/nedo/210903_Graph/05_材料特性_agJsTree_Wikidata_Process_210903-172054.html)
+
+- [ネットワーク図](http://kumeS.github.io/DataScience/nedo/210903_Graph/05_材料特性_agVisNetwork_process_210903-172054.html)
+
+### 弾性率.wd:Q192005
+
+- [ツリー図](http://kumeS.github.io/DataScience/nedo/210903_Graph/)
+
+- [ネットワーク図](http://kumeS.github.io/DataScience/nedo/210903_Graph/)
+
 
 
