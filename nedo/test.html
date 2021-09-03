@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<title>Test</title>
-<script>
-function test(){
-  //選択中の文字列を取得
-  var a = window.getSelection().toString();
+  <meta charset="utf-8">
+  <title>mebeeサンプル</title>
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
  
-  //コンソールに出力する
-  console.log(a);
-}
-</script>
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
 </head>
+<style>
+  .main {
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+  }
+</style>
+<script>
+ 
+  function hoge() {
+    
+    //選択中のテキストを取得
+    var str = window.getSelection().toString();
+    //表示
+    document.getElementsByClassName("uk-placeholder")[0].textContent = str;
+ 
+  }
+ 
+</script>
+ 
 <body>
-  <input type="text" id="txt1" value="あいうえおかきくけこ">
-  <input type="text" id="txt2" value="さしすせそたちつてと">
-  <input type="button" id="btn1" value="ボタン" onclick="test();">
+  <div class="main">
+    <div class="uk-light uk-background-secondary uk-padding">
+ 
+      <div class="uk-placeholder"></div>
+ 
+      <div class="uk-width-xlarge uk-child-width-1-2@s" uk-grid>
+        <div>
+            <div class="uk-panel">本日は晴天なり</div>
+        </div>
+        <div>
+            <div class="uk-panel">test test testtest testtest test</div>
+        </div>
+      </div>
+ 
+      <p uk-margin>
+        <button class="uk-button uk-button-danger" onclick="hoge()">取得</button>
+      </p>
+ 
+    </div>
+  </div>
 </body>
 </html>
