@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Test</title>
+<script>
+function test(){
+  //選択中の文字列を取得
+  var a = window.getSelection().toString();
+ 
+  //コンソールに出力する
+  console.log(a);
+}
+</script>
+</head>
+<body>
+  <input type="text" id="txt1" value="あいうえおかきくけこ">
+  <input type="text" id="txt2" value="さしすせそたちつてと">
+  <input type="button" id="btn1" value="ボタン" onclick="test();">
+</body>
+</html>
