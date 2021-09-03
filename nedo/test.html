@@ -39,7 +39,7 @@
   $.ajax({
     crossDomain: true,
     // SPARQL 検索を呼び出す URL の指定
-    url: ('https://ja.dbpedia.org/sparql?query=SELECT DISTINCT * WHERE {<http://ja.dbpedia.org/resource/東京都> <http://ja.dbpedia.org/property/所在地> ?o . }'),
+    url: ('http://ja.dbpedia.org/sparql?query=SELECT DISTINCT * WHERE {<http://ja.dbpedia.org/resource/東京都> <http://ja.dbpedia.org/property/所在地> ?o . }'),
     dataType: 'json',
     // 返ってきた結果を下記の render 関数に渡す指定
     success: function(json){
