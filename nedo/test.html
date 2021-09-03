@@ -38,18 +38,15 @@
   $.ajax({
     crossDomain: true,
     // SPARQL 検索を呼び出す URL の指定
-    url: ('http://ja.dbpedia.org/sparql?query=' + 
-          'SELECT DISTINCT * WHERE {' +
-          '<http://ja.dbpedia.org/resource/東京都> <http://ja.dbpedia.org/property/所在地> ?o . }'
-          ),
+    url: ('http://ja.dbpedia.org/sparql?query=SELECT DISTINCT * WHERE {<http://ja.dbpedia.org/resource/東京都> <http://ja.dbpedia.org/property/所在地> ?o . }'),
     dataType: 'json',
     // 返ってきた結果を下記の render 関数に渡す指定
     success: function(json){
         var html, i, data = json.results.bindings;
         var datum = data[1];
-      }
+      };
     });
-  };
+  }
   
 </script>
  
@@ -61,7 +58,7 @@
  
       <div class="uk-width-xlarge uk-child-width-1-2@s" uk-grid>
         <div>
-            <div class="uk-panel">本日は晴天なり　１１１222333444</div>
+            <div class="uk-panel">本日は晴天なり　１１１22233344455</div>
         </div>
         <div>
             <div class="uk-panel">test test testtest testtest test</div>
