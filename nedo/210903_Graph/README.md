@@ -32,9 +32,9 @@
 
 ### 弾性率.wd:Q192005
 
-- [ツリー図](http://kumeS.github.io/DataScience/nedo/210903_Graph/)
+- [ツリー図](http://kumeS.github.io/DataScience/nedo/210903_Graph/06_弾性率_agJsTree_Wikidata_Process_210903-172747.html)
 
-- [ネットワーク図](http://kumeS.github.io/DataScience/nedo/210903_Graph/)
+- [ネットワーク図](http://kumeS.github.io/DataScience/nedo/210903_Graph/06_弾性率_agVisNetwork_process_210903-172747.html)
 
 
 
