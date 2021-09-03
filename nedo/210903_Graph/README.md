@@ -36,5 +36,6 @@
 
 - [ネットワーク図](http://kumeS.github.io/DataScience/nedo/210903_Graph/06_弾性率_agVisNetwork_process_210903-172747.html)
 
+## 補足
 
-
+- [Test](http://kumeS.github.io/DataScience/nedo/test.html)
