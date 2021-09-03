@@ -12,5 +12,7 @@ http://kumeS.github.io/DataScience/nedo/210903_Graph/01_All_agVisNetwork_process
 
 ## 工学的プロセス.wd:Q10843872
 
+- ツリー図
 
+- ネットワーク図
 
