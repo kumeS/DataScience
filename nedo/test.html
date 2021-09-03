@@ -34,7 +34,7 @@
  
   }
  
-  function sendQuery(str){
+  function sendQuery(str00){
   $.ajax({
     crossDomain: true,
     // SPARQL 検索を呼び出す URL の指定
@@ -42,12 +42,12 @@
           'SELECT DISTINCT * WHERE {' +
           '<http://ja.dbpedia.org/resource/東京都> <http://ja.dbpedia.org/property/所在地> ?o . }'
           ),
-    // 結果を JSON 形式で取得するための指定
     dataType: 'json',
     // 返ってきた結果を下記の render 関数に渡す指定
     success: function(json){
         var html, i, data = json.results.bindings;
         var datum = data[1];
+      }
     });
   };
   
