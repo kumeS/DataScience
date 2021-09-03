@@ -25,12 +25,32 @@
   function hoge() {
     
     //選択中のテキストを取得
-    var str = window.getSelection().toString();
+    var str00 = window.getSelection().toString();
+    
+    var str = sendQuery(str00)
+    
     //表示
     document.getElementsByClassName("uk-placeholder")[0].textContent = str;
  
   }
  
+  function sendQuery(str){
+  $.ajax({
+    crossDomain: true,
+    // SPARQL 検索を呼び出す URL の指定
+    url: ('http://ja.dbpedia.org/sparql?query=' + 
+          'SELECT DISTINCT * WHERE {' +
+          '<http://ja.dbpedia.org/resource/東京都> <http://ja.dbpedia.org/property/所在地> ?o . }'
+          ),
+    // 結果を JSON 形式で取得するための指定
+    dataType: 'json',
+    // 返ってきた結果を下記の render 関数に渡す指定
+    success: function(json){
+        var html, i, data = json.results.bindings;
+        var datum = data[i];
+    };
+  
+  
 </script>
  
 <body>
