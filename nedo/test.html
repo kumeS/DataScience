@@ -28,7 +28,7 @@
     //選択中のテキストを取得
     var str00 = window.getSelection().toString();
     
-    sendQuery(str00)
+    var datum = sendQuery(str00)
     
     //表示
     document.getElementsByClassName("uk-placeholder")[0].textContent = datum;
@@ -59,7 +59,7 @@
  
       <div class="uk-width-xlarge uk-child-width-1-2@s" uk-grid>
         <div>
-            <div class="uk-panel">本日は晴天なり　１１１222333444556677889910</div>
+            <div class="uk-panel">本日は晴天なり11</div>
         </div>
         <div>
             <div class="uk-panel">test test testtest testtest test</div>
