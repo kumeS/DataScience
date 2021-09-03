@@ -26,3 +26,15 @@ http://kumeS.github.io/DataScience/nedo/210903_Graph/03_重合反応_agJsTree_Wi
 
 http://kumeS.github.io/DataScience/nedo/210903_Graph/03_重合反応_agVisNetwork_process_210903-165905.html
 
+## 相転移.wd:Q185357
+
+- ツリー図
+
+http://kumeS.github.io/DataScience/nedo/210903_Graph/04_相転移_agJsTree_Wikidata_Process_210903-171437.html
+
+- ネットワーク図
+
+http://kumeS.github.io/DataScience/nedo/210903_Graph/04_相転移_agVisNetwork_process_210903-171437.html
+
+
+
